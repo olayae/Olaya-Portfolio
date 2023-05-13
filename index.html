@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Olaya Profile</title>
+    <link rel="icon" type="image/x-icon" source src="Logo.ico" type="image/x-icon"/>
+
+    <!-- aos css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    
+   
+</head>
+<body onload="updateClock()">
+
+    <audio autoplay loop>
+        <source  src="Music.mp3" type="audio/mp3">
+    </audio>
+
+
+
+<!-- header section starts  -->
+
+<header>
+    <a href="#" class="logo"><img src="Images/Logo.ico" alt=""></a>
+    <div id="menu-bar">
+        <i class="fas fa-bars"></i>
+    </div>
+    
+    <nav class="navbar">
+            
+        <ul>
+            <div class="datetime">
+                <div class="date">
+                  
+                  <span id="dayname">Day</span>,
+                  <span id="month">Month</span>
+                  <span id="daynum">00</span>,
+                  <span id="year">Year</span>
+                </div>
+                <div class="time">
+                  <span id="hour">00</span>:
+                  <span id="minutes">00</span>:
+                  <span id="seconds">00</span>
+                  <span id="period">AM</span>
+                </div>
+            </div>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#popular">Projects</a></li>
+            <li><a href="#gallery">Resume</a></li>
+            <li><a href="#service">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+        </ul>
+        
+    </nav>
+    
+</header>
+<!-- header section ends -->
+<div id="myModal" style="display: none;">
+    <!-- Popup content goes here -->
+  </div>
+<!-- home section starts  -->
+
+<section  class="home" id="home">
+
+<!--DATE/TIME ends -->
+
+    <div class="content" data-aos="fade-right">
+        <h3>Evvin Luis Layco Olaya</h3>
+        <p>Software Developer<br>Mobile Application Developer <br> Web Developer</p>
+        <a href="#"><button class="btn">Explore</button></a>
+    </div>
+
+    <div class="image" data-aos="fade-up"></div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+    <div class="image" data-aos="fade-right"></div>
+
+    <div class="content" data-aos="fade-left">
+        <h3>ABOUT ME</h3>
+        
+        <p>I am Evvin Luis Olaya, 20 yrs old, have a desire to improve and learn more about 
+            any programming language that i will need to contribute to the success of your 
+            company. <br>
+            I am from the province of Rizal, city of Pililla. have two siblings.
+        </p>
+        <a href="#"><button class="btn">Learn More</button></a>
+    </div>
+
+</section>
+
+<!-- about section ends -->
+
+
+<!-- popular section starts  -->
+
+<section class="popular" id="popular">
+
+<h1 class="heading"><span>Projects</span></h1>
+
+<div class="box-container">
+
+    <div class="box" data-aos="fade-right">
+        <img src="Images/Logo.ico" alt="">
+        <h3>Student Information Management System</h3>
+
+        
+        <a href="https://drive.google.com/drive/folders/14yzsf_VevCC35f7SkhQvKSk_9DUQ5t41?usp=share_link"><button class="btn">Download</button></a>
+    </div>
+
+    <div class="box" data-aos="fade-left">
+        <img src="Images/Cafe.jpg" alt="">
+        <h3>C'est la vie Café</h3>
+
+
+        <a href="https://drive.google.com/drive/folders/1AAFv5VepH9N7CITLUqzYuJgjQTZN1KZ7?usp=share_link"><button class="btn">Download</button></a>
+    </div>
+
+</div>
+
+</section>
+
+<!-- popular section ends -->
+
+
+
+<section class="gallery" id="gallery">
+
+<h1 class="heading"> My<span> Resume</span> </h1>
+    <div class="pdf-container">
+        <embed src="OLAYA - RESUME.pdf" type="application/pdf" width="100%" height="600px" />
+    </div>
+</section>
+
+
+
+<!--service section starts-->
+<section class="service" id="service">
+    <h1>My <span> Skills</span></h1>
+    <div class="row">
+        <div class="box">
+            
+            <h3>Java</h3>
+            <p>Created multiple console Program with Java</p>
+        </div>
+
+        <div class="box">
+            
+            <h3>Visual basic .net</h3>
+            <p>Developed Student Information System with Xampp SQL Database Using VB .NET</p>
+        </div>
+
+        <div class="box">
+            
+            <h3>Python</h3>
+            <p>Created multiple console program with OOP with Python</p>
+            
+        </div>
+            
+        <div class="box">
+            
+            <h3>HTML with JavaScript and CSS</h3>
+            <p>Developed Cest La Vei Cafe Website with HTML, JavaScript and CSS.</p>
+        </div>
+    </div>
+</section>
+<!--service section ends-->
+
+
+<!-- footer section starts  -->
+<footer>
+<div class="footer">
+    <div class="box-container">
+
+        <div class="box" id="contact">
+            <h3>Contact Info</h3>
+            <p> <i class="fas fa-map-marker-alt"></i> Pililla, Rizal, Philippines </p>
+            <p> <i class="fas fa-envelope"></i> evvinluisolaya1@gmail.com </p>
+            <p> <i class="fas fa-phone"></i> +639193725191 </p>
+            <p> <i class="fas fa-phone"></i> +639705742834 </p>
+        </div>
+
+        <div class="box">
+            <h3>Social Media</h3>
+            <ul class="sci"> 
+                <li><a href="https://www.facebook.com/evvinluis.olaya.17"><i class="fab fa-facebook" ></i></a></li>
+                <li><a href="https://www.instagram.com/itzlightttt/"><i class="fab fa-instagram-square"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="mailto:cafe@gmail.com"><i class="fas fa-envelope"></i></a></li>
+            </ul>          
+        </div>
+        
+    <h1 class="credit"><span>Evvin Luis Layco Olaya</span></h1>
+    </div>
+</div>
+</footer>
+
+
+<!-- aos js cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+<!-- initializing aos  -->
+<script>
+    function text(){
+        alert("Thanks for your order!");
+
+    }
+
+    </script>
+
+
+<script>
+    const clip = document.querySelectorAll('.clip');
+    for (let i = 0; i<clip.length; i++){
+        clip[i].addEventListener('mouseenter', function(e){ clip[i].play()
+        })
+        clip[i].addEventListener('mouseout', function(e){ clip[i].pause()
+        })
+    }
+    </script>
+
+
+<script>
+    AOS.init({
+        delay:400,
+        duration:1000
+    })
+
+</script>
+
+<script>
+    function updateClock(){
+    var now = new Date();
+    var dname = now.getDay(),
+        mo = now.getMonth(),
+        dnum = now.getDate(),
+        yr = now.getFullYear(),
+        hou = now.getHours(),
+        min = now.getMinutes(),
+        sec = now.getSeconds(),
+        pe = "AM";
+
+        if(hou >= 12){
+          pe = "PM";
+        }
+        if(hou == 0){
+          hou = 12;
+        }
+        if(hou > 12){
+          hou = hou - 12;
+        }
+
+        Number.prototype.pad = function(digits){
+          for(var n = this.toString(); n.length < digits; n = 0 + n);
+          return n;
+        }
+
+        var months = ["January", "February", "March", "April", "May", "June", "July", "Augest", "September", "October", "November", "December"];
+        var week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        var ids = ["dayname", "month", "daynum", "year", "hour", "minutes", "seconds", "period"];
+        var values = [week[dname], months[mo], dnum.pad(2), yr, hou.pad(2), min.pad(2), sec.pad(2), pe];
+        for(var i = 0; i < ids.length; i++)
+        document.getElementById(ids[i]).firstChild.nodeValue = values[i];
+  }
+
+  function initClock(){
+    updateClock();
+    window.setInterval("updateClock()", 1);
+  }
+
+
+</script>
+</body>
+</html>
